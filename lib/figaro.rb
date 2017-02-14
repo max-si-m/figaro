@@ -28,5 +28,3 @@ module Figaro
     raise MissingKeys.new(missing_keys) if missing_keys.any?
   end
 end
-
-require "figaro/rails"
